@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang= "en"> 
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+
+    <link rel = "stylesheet" href = "./assets/css/style.css"/> 
+
+    <Title>Weather Dashboard</Title>
+
+</head>
+
+<Body>
+    <header>
+    <h1 class = "page-title"> Weather Dashboard</h1>
+    </header>
+
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-3">
+            <form id="user-form" class="card-body">
+                <label class="form-label" for="city">Search For A CIty:</label>
+                <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn">Search</button>
+              </form>
+              <div class = "search-history" div id = "search-append"> 
+                  
+                  
+              </div>
+              
+        </div>
+              <div class = "col-md-9" id = "search-display">
+                  <div class = " current-weather" id = "specifics">
+                     <p>  <span id = "tempurature"> </span> temp:</p>
+                      <p><span id = "wind"></span> wind:</p>
+                      <p><span id = "humidity"></span> Humidity:</p>
+                      <p><span id = "uv-index"></span> UV Index:</p>
+
+                  </div>
+              </div>
+                 <div class ="row" id = "five-day-forecast">
+                     <div class = "card col-2" id = "1st-day"> 
+                         <p class = "day1"> Date :</p>
+                         <p class = "day1">Temp:</p>
+                         <p class = "day1"> Wind:</p>
+                         <p class = "day1"> Huminity:</p>
+                     </div>
+
+                     <div class = "card col-2" id = 2nd-day>
+                        <p class = "day2"> Date :</p>
+                        <p class = "day2">Temp:</p>
+                        <p class = "day2"> Wind:</p>
+                        <p class = "day2"> Huminity:</p>
+                     </div>
+
+                     <div class = "card col-2" id = "3rd-day"> 
+                        <p class = "day3"> Date :</p>
+                        <p class = "day3">Temp:</p>
+                        <p class = "day3"> Wind:</p>
+                        <p class = "day3"> Huminity:</p>
+                     </div>
+
+                     <div class = "card col-2" id = "4th-day"> 
+                        <p class = "day4"> Date :</p>
+                        <p class = "day4">Temp:</p>
+                        <p class = "day4"> Wind:</p>
+                        <p class = "day4"> Huminity:</p>
+                     </div>
+
+                     <div class = "card col-2" id = "5th-day">
+                        <p class = "day5"> Date :</p>
+                        <p class = "day5">Temp:</p>
+                        <p class = "day5"> Wind:</p>
+                        <p class = "day5"> Huminity:</p>
+                     </div>
+
+
+
+                 </div>
+                
+                
+
+    
+
+    
+    
+        
+
+        
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+
+
+
+    </Body>
+</html>
+
+
